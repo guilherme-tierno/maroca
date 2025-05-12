@@ -1,0 +1,50 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(img/fund.jpg);
+    color: #00ff00;
+    margin: 0;
+    padding: 0;
+  }
+  nav a {
+    font-size: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+.container {
+    padding: 0px 50px;
+}
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #00ff00;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.05);
+  }
